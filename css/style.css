@@ -56,7 +56,8 @@ header #header_in li a {
   text-decoration: none;
   color: #444444; }
 header #header_in li a:hover {
-  color: #6E6EFF; }
+  color: #6E6EFF;
+  text-decoration: underline; }
 
 #syoukai {
   clear: both;
