@@ -130,7 +130,8 @@ header #header_in li a:hover {
   @media (max-width: 550px) {
     #skill .skill-box {
       width: 90%;
-      height: 250px; } }
+      height: 30%;
+      max-height: 280px; } }
   #skill .skill-box_nabi {
     display: inline-block;
     position: relative;
@@ -232,17 +233,14 @@ header #header_in li a:hover {
   background-color: rgba(0, 0, 0, 0.4);
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  cursor: -moz-pointer;
-  cursor: -webkit-pointer;
   cursor: pointer; }
 @media (max-width: 550px) {
   #seisaku .syasin .haikei {
     position: relative;
     opacity: 1;
     background-color: transparent;
-    cursor: -moz-default;
-    cursor: -webkit-default;
-    cursor: default; } }
+    cursor: default;
+    margin-bottom: 10px; } }
 #seisaku .syasin:hover .haikei {
   opacity: 1;
   /* マスクを表示する */ }

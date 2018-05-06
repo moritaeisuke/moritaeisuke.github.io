@@ -154,7 +154,8 @@ h1:after {right: 7px;}
    @media (max-width: 550px){
        .skill-box{
          width: 90%;
-         height: 250px;
+         height: 30%;
+         max-height: 280px;
        }
    }
 .skill-box_nabi {
@@ -289,8 +290,6 @@ h1:after {right: 7px;}
 	background-color:	rgba(0,0,0,0.4);
 	-webkit-transition:	all 0.2s ease;
 	transition:		all 0.2s ease;
-	 cursor:-moz-pointer;
-     cursor:-webkit-pointer;
 	 cursor: pointer;
 }
  @media (max-width: 550px){
@@ -298,9 +297,8 @@ h1:after {right: 7px;}
      position: relative;
      opacity: 1;
 	background-color:	rgba(0,0,0,0.0);
-	cursor:-moz-default;
-    cursor:-webkit-default;
 	cursor: default;
+	margin-bottom: 10px;
   }
  }
 .syasin:hover .haikei {
