@@ -199,8 +199,7 @@ header #header_in li a:hover {
   width: 45%;
   overflow: hidden;
   margin: 10px 8px 10px 16px;
-  position: relative;
-  /* 相対位置指定 */ }
+  position: relative; }
 @media (max-width: 550px) {
   #seisaku .syasin {
     width: 90%;
@@ -221,7 +220,8 @@ header #header_in li a:hover {
   color: #fff; }
 @media (max-width: 550px) {
   #seisaku .syasin .mozi {
-    padding-top: 20%; } }
+    padding-top: 0%;
+    color: #4c4c4c; } }
 #seisaku .syasin .haikei {
   width: 100%;
   height: 100%;
@@ -231,10 +231,18 @@ header #header_in li a:hover {
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.4);
   -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease; }
+  transition: all 0.2s ease;
+  cursor: -moz-pointer;
+  cursor: -webkit-pointer;
+  cursor: pointer; }
 @media (max-width: 550px) {
   #seisaku .syasin .haikei {
-    height: 92%; } }
+    position: relative;
+    opacity: 1;
+    background-color: transparent;
+    cursor: -moz-default;
+    cursor: -webkit-default;
+    cursor: default; } }
 #seisaku .syasin:hover .haikei {
   opacity: 1;
   /* マスクを表示する */ }
@@ -313,10 +321,11 @@ header #header_in li a:hover {
   vertical-align: middle;
   overflow: hidden;
   font-weight: bold;
-  transition: .3s; }
+  transition: .3s;
+  cursor: default; }
 @media (max-width: 550px) {
   #link .share_btn2 {
-    margin: 0 20px 70px; } }
+    margin: 0 15px 70px; } }
 #link .share_btn2.shfb {
   margin-left: 0px; }
 #link .share_btn2 .fa {
@@ -332,17 +341,20 @@ header #header_in li a:hover {
 #link .share_btn2.shpkt {
   background: #ff6d82; }
 
-footer #footer_in {
+footer #footer {
   width: 100%;
   background-color: #d78114;
-  margin: 0;
+  height: 50px;
+  margin-bottom: 0px;
   max-width: 2000px; }
-  footer #footer_in p {
-    padding-top: 2.3rem;
+  footer #footer p {
     font-size: 1.5rem;
-    color: #E7B372; }
+    color: #E7B372;
+    line-height: 50px;
+    margin-bottom: 0px; }
   @media (max-width: 550px) {
-    footer #footer_in p {
-      font-size: 1.2rem; } }
+    footer #footer p {
+      font-size: 1.2rem;
+      letter-spacing: 1px; } }
 
 /*# sourceMappingURL=style.css.map */
