@@ -294,6 +294,8 @@ header #header_in li a:hover {
 #korekara .taitoru p {
   text-align: left;
   font-size: 1.6rem; }
+#korekara .taitoru span {
+  color: #ff0000; }
 
 #link h2 {
   clear: both;
